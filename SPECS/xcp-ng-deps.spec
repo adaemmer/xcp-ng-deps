@@ -217,6 +217,9 @@ fi
 %files
 
 %changelog
+* Fri Apr 24 2020 Frank Adaemmer <frank.adaemmer@rohde-schwarz.com> - 8.1.0-10
+- Inject addition packages, but keep version.
+
 * Fri Apr 03 2020 Samuel Verschelde <stormi-xcp@ylix.fr> - 8.1.0-10
 - Restore dependency to gpumon. XAPI chokes on nvidia gpus without it
 - Don't enable the chronyd and chrony-wait services here anymore
