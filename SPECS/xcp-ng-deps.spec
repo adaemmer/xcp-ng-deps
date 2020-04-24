@@ -141,6 +141,20 @@ Requires: xha
 Requires: xsconsole
 Requires: yum
 Requires: zip
+Requires: rs-initial
+Requires: rs-startupshutdown
+Requires: rs-writelcd
+Requires: acpid
+Requires: rs-powerbutton
+Requires: rs-sds
+Requires: drbd84-utils
+Requires: drbd84-utils-sysvinit
+Requires: libibverbs
+Requires: librdmacm
+Requires: perl-Config-General
+Requires: rdma-core
+Requires: scsi-target-utils
+Requires: halizard-prepare
 
 # XAPI currently chokes on nvidia GPUs without that package
 Requires: gpumon
